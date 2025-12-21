@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: false,
+		enable: true,
 		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/icon_left.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "Radeky",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	bio: "小小小熊猫！",
 	links: [
 		{
 			name: "Steam",
